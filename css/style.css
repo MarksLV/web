@@ -102,6 +102,18 @@ p {
   padding: 20px; 
   box-shadow: rgba(0, 0, 0, 0.415) 10px 10px;
 }
+.Section2 {
+  background-color: white;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;               /* > Stack items vertically */
+  justify-content: space-between;       /* > Push text to top and image to bottom */
+  align-items: flex-start;              /* > Align text and image to the left */
+  width: 220px;
+  height: 180px; 
+  padding-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.415) 10px 10px;
+}
 
 @media screen and (max-width: 600px) {
   .section {
@@ -113,6 +125,7 @@ p {
     font-size: 18px;
     padding: 10px; 
   }
+
 }
 
 
@@ -198,4 +211,12 @@ p {
     font-size: 14px;
     margin-top: 10px;
   }
+
+  h4 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: left;
+  }
+
+
 }
